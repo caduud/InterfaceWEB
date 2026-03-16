@@ -2,6 +2,10 @@ body{
     padding-left: 300px;
     margin-right: 300px;
     background-color: aliceblue;
+    background-image: url("imagens/minimalist-white-background-3840x2160-bright-space-clean-aesthetic-27644.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 header{
@@ -12,6 +16,10 @@ header{
     margin-left: 300px;
     margin-right: 300px;
     padding: 20px;
+}
+
+img{
+    float: left;
 }
 
 header h1{
@@ -39,27 +47,23 @@ main p{
     font-size: 18px;
 }
 
-#introducao {
-    display: flex;
-    align-items: flex-start;
-    gap: 30px;
-}
-
 #introducao img {
-    margin-left: 10px;
+    float: left;
     width: 300px;
     height: auto;
+    margin-right: 40px;
+    margin-left: 10px;
 }
 
 #info {
-    display: flex;
-    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
 }
 
 #info h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    margin: 10;
+    margin: 10px 0;
 }
 
 #contato h1{
@@ -74,4 +78,8 @@ main p{
 #local{
     font-weight: bold;
     font-size: 20px;
+}
+
+#formacao{
+    margin-top: 70px
 }
