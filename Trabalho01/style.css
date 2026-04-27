@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 68.75rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.875rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #080d1a, #133468);
+    color: white;
+    min-height: 100vh;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.bolinha{
+    cursor: pointer;
+    width: 2.75rem;
+    height: 1.5rem;
+}
+
+header {
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    background-color: #1F2534;
+    margin-bottom: 1.875rem;
+}
+
+#header-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#logo-img {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 0.5rem;
+}
+
+#header-icone {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 0.5rem;
+}
+
+#topo-lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+#topo-lista h1 {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+#filtros {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.filtro {
+    padding: 0.5rem 1.25rem;
+    border-radius: 1.25rem;
+    border: 0.0625rem solid #334155;
+    background-color: #1e293b;
+    color: white;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.filtro.ativo {
+    color: black;
+    background-color: #ef4444;
+    border-color: #ef4444;
+}
+
+#lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+}
+
+.caixa {
+    background-color: #1F2534;
+    width: 21.25rem;
+    padding: 1.25rem;
+    border-radius: 0.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0.0625rem solid #334155;
+}
+
+.info {
+    display: flex;
+    gap: 0.875rem;
+    margin-bottom: 1.25rem;
+}
+
+.icone {
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 0.75rem;
+}
+
+.caixa-texto h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.375rem;
+}
+
+.caixa-texto p {
+    font-size: 0.8125rem;
+    color: #94a3b8;
+    line-height: 1.5;
+}
+
+.acoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.0625rem solid #334155;
+    padding-top: 1rem;
+}
+
+.btn-remover {
+    padding: 0.375rem 0.875rem;
+    border-radius: 0.5rem;
+    border: 0.0625rem solid #475569;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 0.8125rem;
+}
